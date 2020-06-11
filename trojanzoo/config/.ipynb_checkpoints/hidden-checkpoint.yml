@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+
+poisoned_image_num:
+    default: 100
+
+poison_generation_iteration:
+    default: 5000
+
+poison_lr:
+    default: 0.01
+
+preprocess_layer:
+    default: features
+
+epsilon:
+    default: 16
+
+decay:
+    default: True
+
+decay_iteration:
+    default: 2000
+
+decay_ratio:
+    default: 0.95
